@@ -18,7 +18,7 @@
 
 - Linear Regression
 
-- Logestic Regression
+- Logistic Regression
 
 - K-Nearset Neighbors (KNN)
 
