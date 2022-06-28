@@ -125,7 +125,5 @@ $x_5  = (1,3) $
 
 $x_6  = (9,1) $
 
-اکنون با استفاده از الگوریتم KNN برای k=3 هم به صورت دستی و هم با استفاده از کتابخانه sklearn  کلاس متناظر به داده $x=(0, 0)$ را بیابید. برای آشنایی با نحوه آموزش مدل KNN با استفاده از کتابخانه sklearn  به [این لینک](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) مراجعه کنید.
-
 توجه کنید که این کار هم باید به صورت دستی و هم با پیاده‌سازی برنامه در پایتون انجام شود. برای سهولت می‌توانید از کتابخانه sklearn  در [این لینک](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) استفاده کنید.
 
