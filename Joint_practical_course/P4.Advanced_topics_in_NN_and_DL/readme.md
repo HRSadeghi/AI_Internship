@@ -88,7 +88,7 @@ $$s(t)=\sum_{a=-\infty}^{\infty} x(x).w(t-a)$$
 
 ### روش‌های تنظیم‌سازی (regularization)
 
-یکی از مشکلاتی که در انواع مدل‌های یادگیر ما را درگیر می‌کند، بحث بیش‌برازش یا (overfitting) است. بیش‌برازش سبب می‌شود که عملکرد مدل بر روی دادگان آزمون بسیار ضعیف‌تر و بدتر از داده‌ی آموزش باشد. برای جلوگیری از این مشکل معمولا از روش‌ تنظیم‌سازی یا regulariztion  استفاده می‌کنیم. روش‌های تنظیم‌سازی متعددی وجود دارند اما در این‌جا صرفا به سه مورد L1، L2، Dropout و افزونگی داده یا data augmentation نیاز داریم. برای سه مورد نخست می‌توانید به [این لینک](https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036#:~:text=Regularization%20is%20a%20set%20of,data%20from%20the%20problem%20domain.) و برای مورد آخر می‌توانید به [این لینک](https://nanonets.com/blog/data-augmentation-how-to-use-deep-learning-when-you-have-limited-data-part-2/) مراجعه کنید.
+یکی از مشکلاتی که در انواع مدل‌های یادگیر ما را درگیر می‌کند، بحث بیش‌برازش یا (overfitting) است. بیش‌برازش سبب می‌شود که عملکرد مدل بر روی دادگان آزمون بسیار ضعیف‌تر و بدتر از داده‌ی آموزش باشد. برای جلوگیری از این مشکل معمولا از روش‌ تنظیم‌سازی یا regulariztion  استفاده می‌کنیم. روش‌های تنظیم‌سازی متعددی وجود دارند اما در این‌جا صرفا به سه مورد L1، L2، dropout و افزونگی داده یا data augmentation نیاز داریم. برای سه مورد نخست می‌توانید به [این لینک](https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036#:~:text=Regularization%20is%20a%20set%20of,data%20from%20the%20problem%20domain.) و برای مورد آخر می‌توانید به [این لینک](https://nanonets.com/blog/data-augmentation-how-to-use-deep-learning-when-you-have-limited-data-part-2/) مراجعه کنید.
 
 با مطالعه موارد فوق بررسی کنید که چه رابطه‌ای بین data augmentation  و regularization وجود دارد.
 
@@ -102,6 +102,6 @@ $$s(t)=\sum_{a=-\infty}^{\infty} x(x).w(t-a)$$
 
 
 
-> تمرین5:  در تمرین 2 یک مدل Resnet50 را طراحی کردید. با اضافه کردن لایه‌ی Dropout به این لایه، مدل خود را بازطراحی کنید و نتایج آن را گزارش کنید. این مدل چگونه مشکل کم‌رنگ شدن گرادیان را حل کرده است. توضیح دهید.
+> تمرین5:  در تمرین 2 یک مدل Resnet50 را طراحی کردید. با اضافه کردن لایه‌ی dropout به این لایه، مدل خود را بازطراحی کنید و نتایج آن را گزارش کنید. این مدل چگونه مشکل کم‌رنگ شدن گرادیان را حل کرده است. توضیح دهید.
 >
 > توجه: برای پاسخ به آخرین سوال بررسی کنید که اتصال باقی‌مانده‌ای چیست و چگونه کار می‌کند (residual connection).
