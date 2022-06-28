@@ -49,7 +49,7 @@
 
 $$\ell = \frac{1}{n-1} (y-\hat{y})^2 $$
 
-که در رابطه فوق $n$ تعداد نمونه‌ها،  $y$ خروجی واقعی متناسب با ورودی $x$  و $y$ خروجی پیش‌بینی شده مدل می‌باشد. برای پیاده‌سازی این بخش از کتابخانه sklearn پایتون استفاده خواهیم کرد. برای اطلاعات بیشتر به [این لینک](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) مراجعه کنید. 
+که در رابطه فوق $n$ تعداد نمونه‌ها،  $y$ خروجی واقعی متناسب با ورودی $x$  و $\hat{y}$ خروجی پیش‌بینی شده مدل می‌باشد. برای پیاده‌سازی این بخش از کتابخانه sklearn پایتون استفاده خواهیم کرد. برای اطلاعات بیشتر به [این لینک](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) مراجعه کنید. 
 
 
 
