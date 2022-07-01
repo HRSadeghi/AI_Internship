@@ -51,7 +51,7 @@
 >
 > توجه: ابتدا متن را توکن‌سازی کنید. سپس از یک لایه تعبیه، یک لایه LSTM و یک لایه تماما متصل استفاده کنید. مدل خود را با روش‌های گفته شده در تمرین قبل ارزیابی کنید.
 >
-> برای آشنایی با لایه تعبیه در pytorch به این لینک مراجعه کنید.
+> برای آشنایی با لایه تعبیه در pytorch به [این لینک](https://pytorch.org/docs/stable/generated/torch.nn.Embedding.html#:~:text=A%20simple%20lookup%20table%20that%20stores%20embeddings%20of%20a%20fixed%20dictionary%20and%20size.) و [این لینک](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html) مراجعه کنید.
 
 
 
