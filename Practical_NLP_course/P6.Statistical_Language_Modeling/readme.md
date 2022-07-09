@@ -22,3 +22,16 @@ $$P(t_1,...,t_m) = P(t_1) \prod_{i=2}^{m} P(t_i|t_1,...,t_{i-1}) \approx P(t_1,.
 
 برای آشنایی با روش‌های Smoothing [این لینک](https://vitalflux.com/quick-introduction-smoothing-techniques-language-models/) را مطالعه کنید.
 
+
+
+
+
+> تمرین1: مدل زبانی kenlm یک مدل زبانی آماری می‌باشد. با مطالعه [این سند](https://kheafield.com/code/kenlm/) تلاش کنید تا با این مدل آشنا شوید. همچنین مشخص کنید که این مدل از چه روشی برای Smoothing  استفاده می‌کند.
+
+
+
+
+
+>
+> 
+> تمرین2: مدل زبانی kenlm را راه‌اندازی کنید و بر روی مجموعه داده همشهری، یک مدل زبانی 5-gram آموزش دهید.
