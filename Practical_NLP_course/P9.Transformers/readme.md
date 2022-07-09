@@ -29,3 +29,9 @@ $$Q = W^{(Q)}X \  \  s.t. \ \ W^{(Q)} \in \mathbb{R}^{d \times d^{'}}$$
 $$K = W^{(K)}X \  \  s.t. \ \ W^{(K)} \in \mathbb{R}^{d \times d^{'}}$$
 
 $$V = W^{(V)}X \  \  s.t. \ \ W^{(V)} \in \mathbb{R}^{d \times d^{'}}$$
+
+
+
+اکنون با داشتن این سه ماتریس مکانیزم خود-توجه به صورت زیر ساخت می‌شود:
+
+$$X^{'} = softmax(\frac{QK^{T}}{\sqrt{d}})V$$
