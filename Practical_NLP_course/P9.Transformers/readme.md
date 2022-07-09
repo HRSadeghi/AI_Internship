@@ -35,3 +35,16 @@ $$V = W^{(V)}X \  \  s.t. \ \ W^{(V)} \in \mathbb{R}^{d \times d_{v}}$$
 اکنون با داشتن این سه ماتریس مکانیزم خود-توجه به صورت زیر ساخت می‌شود:
 
 $$X^{'} = softmax(\frac{QK^{T}}{\sqrt{d_k}})V$$
+
+
+
+
+
+> تمرین1: با مطالعه کامل مقاله اصلی ترنسفورمرها، [این کد](https://colab.research.google.com/github/dlmacedo/starter-academic/blob/master/content/courses/deeplearning/notebooks/tensorflow/transformer.ipynb) را، که در واقع یک مترجم زبان پرتغالی به انگلیسی می‌سازد، را اجرا کنید و جزئیات آن را گزارش کنید.
+
+
+
+
+
+
+
